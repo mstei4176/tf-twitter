@@ -43,11 +43,6 @@ dbDisconnect(conLoc)
 # Chunk  - 2 - Setting up Twitter  
 ############################################################
 token <- create_token(
-  app = "thievingfox",
-  consumer_key = "IDt6AdectPd2uA0tz4iHWVGV6",
-  consumer_secret = "czZlmRqDRszJSRTMSIh38m1HVPOTW8yDHBoaIBVYUjy42NIVlg",
-  access_token="254714599-6agwyh2WXrUFQfta4PSTl3r0ycS244uwnQyCFhz0" ,
-  access_secret="fQGRqDB2xlb4Ard00SLD7K0tTnGmGYN2gjxmhToi8gcjJ"
 )
 
 start.date <- as.character(Sys.Date()-2)
